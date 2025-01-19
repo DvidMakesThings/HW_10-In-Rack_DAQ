@@ -1,8 +1,8 @@
-# %PROJECT_NAME% Project
+# %PROJECT_NAME% Project Design Documents PDF's
 ## Contents
-This folder contains all the documents related to the %PROJECT_NAME% project.
+This folder contains hardware design files in PDF format.
 ## Usage
-To use the files in this project, navigate to the respective directories and follow the instructions provided in each document.
+Open the PDF files to view the hardware design schematics for the %PROJECT_NAME% project.
 ## License
 This project is licensed under the MIT License.
 ## Contact

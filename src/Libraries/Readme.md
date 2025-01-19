@@ -1,8 +1,10 @@
-# %PROJECT_NAME% Project
+# # %PROJECT_NAME% Project Eagle Projects Libraries
 ## Contents
-This folder contains all the documents related to the %PROJECT_NAME% project.
+This folder contains Eagle libraries for various electronic components and modules.
 ## Usage
-To use the files in this project, navigate to the respective directories and follow the instructions provided in each document.
+1. Open Eagle.
+2. Navigate to `File` > `Open` > `Library`.
+3. Select the desired library from this folder.
 ## License
 This project is licensed under the MIT License.
 ## Contact

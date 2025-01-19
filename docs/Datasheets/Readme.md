@@ -1,8 +1,8 @@
-# %PROJECT_NAME% Project
+# %PROJECT_NAME% Project Datasheets
 ## Contents
-This folder contains all the documents related to the %PROJECT_NAME% project.
+This folder contains datasheets related to the %PROJECT_NAME% project.
 ## Usage
-To use the files in this project, navigate to the respective directories and follow the instructions provided in each document.
+Refer to the datasheets in this folder for detailed specifications and information about the components used in the Breadboard project.
 ## License
 This project is licensed under the MIT License.
 ## Contact

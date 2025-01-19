@@ -1,8 +1,9 @@
-# %PROJECT_NAME% Project
+# %PROJECT_NAME% Project Images
+This folder contains images related to the %PROJECT_NAME% projects.
 ## Contents
-This folder contains all the documents related to the %PROJECT_NAME% project.
+- Various images used in %PROJECT_NAME% projects.
 ## Usage
-To use the files in this project, navigate to the respective directories and follow the instructions provided in each document.
+These images are intended for use in documentation and presentations related to %PROJECT_NAME% projects.
 ## License
 This project is licensed under the MIT License.
 ## Contact

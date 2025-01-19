@@ -1,8 +1,8 @@
-# %PROJECT_NAME% Project
+# %PROJECT_NAME% Project Manuals
 ## Contents
-This folder contains all the documents related to the %PROJECT_NAME% project.
+- Manuals
 ## Usage
-To use the files in this project, navigate to the respective directories and follow the instructions provided in each document.
+This folder contains documentation and manuals for the %PROJECT_NAME% project.
 ## License
 This project is licensed under the MIT License.
 ## Contact
