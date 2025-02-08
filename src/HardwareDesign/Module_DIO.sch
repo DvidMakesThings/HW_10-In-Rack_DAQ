@@ -4083,6 +4083,7 @@ Feel free to contact us at &lt;a href="mailto:Support@PCBLayout.com"&gt;Support@
 <part name="R8" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="200K"/>
 <part name="R10" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="200K"/>
 <part name="R11" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="200K"/>
+<part name="NC15" library="ds_passive" deviceset="NC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7188,6 +7189,7 @@ Configure /boot/config.txt to enable GPIO-based debugging.</text>
 <instance part="P+1" gate="1" x="66.04" y="149.86" smashed="yes" rot="R90">
 <attribute name="VALUE" x="63.5" y="152.4" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="NC15" gate="G$1" x="281.94" y="170.18" smashed="yes"/>
 </instances>
 <busses>
 </busses>
