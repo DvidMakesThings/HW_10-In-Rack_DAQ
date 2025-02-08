@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="bCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -5296,8 +5296,8 @@ top actuated</description>
 <part name="R70" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="100K 0.1%"/>
 <part name="R71" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="10K 0.1%"/>
 <part name="GND90" library="ds_passive" deviceset="GND" device=""/>
-<part name="R72" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="4.7K"/>
-<part name="R77" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="4.7K"/>
+<part name="R72" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="10K"/>
+<part name="R77" library="ds_passive" deviceset="R" device="0402" package3d_urn="urn:adsk.eagle:package:46683744/2" value="10K"/>
 <part name="GND116" library="ds_passive" deviceset="GND" device=""/>
 <part name="P+29" library="ds_passive" deviceset="+5V" device=""/>
 <part name="P+30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -5309,6 +5309,9 @@ top actuated</description>
 <part name="NC3" library="ds_passive" deviceset="NC" device=""/>
 <part name="JP-3V3-1" library="ds_passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:46683743/2" value="0R"/>
 <part name="JP-3V3-2" library="ds_passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:46683743/2" value="0R"/>
+<part name="JP-EXT-1" library="ds_passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:46683743/2" value="0R"/>
+<part name="JP-EXT-2" library="ds_passive" deviceset="R" device="0603" package3d_urn="urn:adsk.eagle:package:46683743/2" value="0R"/>
+<part name="P+31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5338,8 +5341,9 @@ top actuated</description>
 <text x="12.7" y="63.5" size="3.81" layer="94">ANALOG-IN TESTPOINTS</text>
 <text x="195.58" y="248.92" size="3.81" layer="94">PGA</text>
 <text x="274.32" y="248.92" size="3.81" layer="94">INPUT MULTIPLEXER</text>
-<text x="302.26" y="27.94" size="6.4516" layer="91">ADC ON SPI1</text>
-<text x="289.56" y="22.86" size="2.54" layer="94" rot="MR180">ANALOG INPUT</text>
+<text x="289.56" y="17.78" size="3.81" layer="94">ANALOG IN</text>
+<text x="289.56" y="12.7" size="2.54" layer="94">Rev 1.0</text>
+<text x="289.56" y="7.62" size="2.54" layer="94">David Sipos / DvidMakesThings</text>
 </plain>
 <instances>
 <instance part="R16" gate="G$1" x="27.94" y="187.96" smashed="yes">
@@ -7037,7 +7041,9 @@ top actuated</description>
 <text x="33.02" y="134.62" size="3.81" layer="94">ANALOG-OUT TESTPOINTS</text>
 <text x="10.16" y="248.92" size="3.81" layer="94">ANALOG-OUT DAC</text>
 <text x="157.48" y="228.6" size="3.81" layer="94">ANALOG-OUT OUTPUT DRIVERS</text>
-<text x="289.56" y="22.86" size="2.54" layer="94" rot="MR180">ANALOG OUTPUT</text>
+<text x="289.56" y="17.78" size="3.81" layer="94">DAC</text>
+<text x="289.56" y="12.7" size="2.54" layer="94">Rev 1.0</text>
+<text x="289.56" y="7.62" size="2.54" layer="94">David Sipos / DvidMakesThings</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes">
@@ -8828,6 +8834,7 @@ top actuated</description>
 </nets>
 </sheet>
 <sheet>
+<description>MCU</description>
 <plain>
 <text x="71.12" y="76.2" size="5.08" layer="91">USB-C CONNECTOR</text>
 <text x="256.54" y="236.22" size="5.08" layer="91">DECOUPLING</text>
@@ -8836,7 +8843,7 @@ top actuated</description>
 <text x="27.94" y="137.16" size="5.08" layer="91">RP2040 FLASH</text>
 <text x="276.86" y="187.96" size="5.08" layer="91">ADC VREF</text>
 <text x="35.56" y="241.3" size="5.08" layer="91">DEBUG</text>
-<text x="289.56" y="17.78" size="3.81" layer="94">Controller Board</text>
+<text x="289.56" y="17.78" size="3.81" layer="94">RP2040 MCU</text>
 <text x="289.56" y="12.7" size="2.54" layer="94">Rev 1.0</text>
 <text x="289.56" y="7.62" size="2.54" layer="94">David Sipos / DvidMakesThings</text>
 </plain>
@@ -10159,16 +10166,15 @@ top actuated</description>
 <plain>
 <text x="25.4" y="243.84" size="3.81" layer="94" distance="120" align="center-left">3.3V SYSTEM LDO</text>
 <text x="142.24" y="243.84" size="3.81" layer="94" distance="120" align="center-left">2.5V VREF</text>
-<text x="289.56" y="22.86" size="2.54" layer="94" rot="MR180">SYSTEM POWER 
-AND CONNECTORS</text>
 <text x="284.48" y="241.3" size="3.81" layer="94">ADC INPUTS</text>
 <text x="109.22" y="20.32" size="1.6764" layer="91">Enable SWD Debugging on Raspberry Pi:
 Install OpenOCD (sudo apt install openocd)
 Configure /boot/config.txt to enable GPIO-based debugging.</text>
 <text x="25.4" y="132.08" size="3.81" layer="94" distance="120" align="center-left">BOARD CONNECTOR</text>
-<text x="193.04" y="116.84" size="3.81" layer="94" distance="120" align="center-left">ANALOG CONNECTOR</text>
-<text x="25.4" y="185.42" size="3.81" layer="94" distance="120" align="center-left">EXTERNAL SUPPLY</text>
-<text x="35.56" y="170.18" size="3.81" layer="94" distance="120" align="center-left">NOT YET IPLEMENTED</text>
+<text x="190.5" y="124.46" size="3.81" layer="94" distance="120" align="center-left">ANALOG CONNECTOR</text>
+<text x="289.56" y="17.78" size="3.302" layer="94">POWER AND OUTPUT</text>
+<text x="289.56" y="12.7" size="2.54" layer="94">Rev 1.0</text>
+<text x="289.56" y="7.62" size="2.54" layer="94">David Sipos / DvidMakesThings</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -10562,6 +10568,17 @@ Configure /boot/config.txt to enable GPIO-based debugging.</text>
 <instance part="JP-3V3-2" gate="G$1" x="96.52" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="92.9386" y="111.125" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="90.678" y="111.125" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="JP-EXT-1" gate="G$1" x="215.9" y="116.84" smashed="yes" rot="MR270">
+<attribute name="NAME" x="216.535" y="113.2586" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="216.535" y="110.998" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="JP-EXT-2" gate="G$1" x="215.9" y="106.68" smashed="yes" rot="MR270">
+<attribute name="NAME" x="216.535" y="103.0986" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="216.535" y="100.838" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="P+31" gate="1" x="190.5" y="116.84" smashed="yes" rot="R90">
+<attribute name="VALUE" x="187.96" y="119.38" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -10958,6 +10975,16 @@ Configure /boot/config.txt to enable GPIO-based debugging.</text>
 <wire x1="45.72" y1="83.82" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
 <junction x="45.72" y="86.36"/>
 <pinref part="P+30" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="JP-EXT-1" gate="G$1" pin="1"/>
+<wire x1="210.82" y1="116.84" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP-EXT-2" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="106.68" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="106.68" x2="203.2" y2="116.84" width="0.1524" layer="91"/>
+<junction x="203.2" y="116.84"/>
+<pinref part="P+31" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="VREF_ADC" class="0">
@@ -11775,6 +11802,16 @@ Configure /boot/config.txt to enable GPIO-based debugging.</text>
 <wire x1="231.14" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
 <label x="233.68" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP-EXT-1" gate="G$1" pin="2"/>
+<wire x1="220.98" y1="116.84" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP-EXT-2" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="116.84" x2="236.22" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="106.68" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="106.68" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<junction x="228.6" y="116.84"/>
+<label x="236.22" y="116.84" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 </nets>
 </sheet>
@@ -11881,7 +11918,9 @@ adjustment range: -10.8 V to -13.2 V.
   - R1N = 91.2 kΩ to 111.5 kΩ.</text>
 <text x="220.98" y="248.92" size="3.81" layer="94" distance="120" align="center-left">+/-14V to +/12V LDO</text>
 <text x="299.72" y="66.04" size="3.81" layer="94" distance="120" align="center-left">TESTPOINTS AI-POWER</text>
-<text x="289.56" y="22.86" size="2.54" layer="94" rot="MR180">AI-POWER</text>
+<text x="289.56" y="17.78" size="3.81" layer="94">DC-DC CONV</text>
+<text x="289.56" y="12.7" size="2.54" layer="94">Rev 1.0</text>
+<text x="289.56" y="7.62" size="2.54" layer="94">David Sipos / DvidMakesThings</text>
 </plain>
 <instances>
 <instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes">
