@@ -1,6 +1,6 @@
 # DataForge-Pi - The Raspberry integrated DAQ Project
 
-![Development Status](https://img.shields.io/badge/status-Ongoing%20Review%20--%20Hardware%20Design-yellow)
+![Development Status](https://img.shields.io/badge/status-Ordering%20PCB-yellow)
 
 
 ## Introduction
@@ -14,9 +14,9 @@ The goal of this project is not only to address the size constraints but also to
 | Phase                                | Status   |
 | ------------------------------------ | -------- |
 | **PCB Design & Prototyping**         | ![Completed](https://img.shields.io/badge/status-completed-brightgreen) |
-| **Design Review**                    | ![In Progress](https://img.shields.io/badge/status-in%20progress-yellow) |
-| **Enclosure Design**                 | ![Not Started](https://img.shields.io/badge/status-not%20started-red) |
-| **Order PCB**                        | ![Not Started](https://img.shields.io/badge/status-not%20started-red) |
+| **Design Review**                    | ![Completed](https://img.shields.io/badge/status-completed-brightgreen) |
+| **Enclosure Design**                 | ![In Progress](https://img.shields.io/badge/status-in%20progress-yellow) |
+| **Order PCB**                        | ![In Progress](https://img.shields.io/badge/status-in%20progress-yellow) |
 | **Prototyping and Hardware Testing** | ![Not Started](https://img.shields.io/badge/status-not%20started-red) |
 | **Initial Firmware Development**     | ![Not Started](https://img.shields.io/badge/status-not%20started-red) |
 | **Enclosure Testing & Ventilation**  | ![Not Started](https://img.shields.io/badge/status-not%20started-red) |
@@ -25,7 +25,7 @@ The goal of this project is not only to address the size constraints but also to
 | **Production Optimization**          | ![Planned](https://img.shields.io/badge/status-planned-blue) |
 
 
-![Image 1](images/HW_RPI_DAQ-3D-Front.png)
+![Image 1](images/Dataforge-assemby-3D-1.png)
 
 ## Features
 
@@ -62,6 +62,8 @@ Key features of the CM5 are as follows (for more details, refer to the [CM5 data
 - 1 × SDIO 2.0 (CM5Lite)
 - Single +5V PSU input supports USB PD for up to 5A @ 5V
 - Real-time clock (RTC), powered from external battery
+
+![Image 2](images/Dataforge-assemby-3D-2.png)
 
 ## DAQ Specifications
 
@@ -144,13 +146,7 @@ The input ranges for different gain settings are determined by the reference vol
 
 Refer to the datasheets and manuals in the `docs` folder for detailed information on the components and usage instructions.
 
-![Image 2](images/HW_RPI_DAQ-3D-Rear.png)
-
-![Image 3](images/HW_RPI_DAQ-3D-Top.png)
-
-## Usage
-
-Refer to the datasheets and manuals in the `docs` folder for detailed information on the components and usage instructions.
+![Image 2](images/Dataforge-assemby-3D-3.png)
 
 ## License
 
