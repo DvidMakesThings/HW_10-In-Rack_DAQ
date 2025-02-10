@@ -6,7 +6,7 @@ DiffPairCheck.exe is a standalone Windows application designed to verify the len
 DiffPairCheck.exe relies on a strict naming convention to accurately group differential pairs. The signal names must follow the format outlined in the [Key Design Rules for Differential Pairs for Interfaces](https://github.com/DvidMakesThings/HW_10-In-Rack_DAQ/blob/master/docs/Manuals/Key%20Design%20Rules%20for%20Differential%20pairs%20for%20Interfaces.pdf):
 
 - **Format:**  
-  **InterfaceName + "_" + DiffPairName + "_" + (N or P)**
+  **InterfaceName + _DiffPairName + ( _N or _P )**
   
   For example:
   - `ETH1_TX4_N` / `ETH1_TX4_P`  
