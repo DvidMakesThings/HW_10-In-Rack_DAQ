@@ -12741,14 +12741,14 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="PI1" gate="HISPEED" pin="2"/>
 </segment>
 </net>
-<net name="USB2_N" class="2">
+<net name="USB_DP_N" class="2">
 <segment>
 <wire x1="147.32" y1="200.66" x2="129.54" y2="200.66" width="0.1524" layer="91"/>
 <label x="147.32" y="200.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="4"/>
 </segment>
 </net>
-<net name="USB2_P" class="2">
+<net name="USB_DP_P" class="2">
 <segment>
 <wire x1="147.32" y1="198.12" x2="129.54" y2="198.12" width="0.1524" layer="91"/>
 <label x="147.32" y="198.12" size="1.27" layer="95" xref="yes"/>
@@ -12769,70 +12769,70 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="PI1" gate="HISPEED" pin="12"/>
 </segment>
 </net>
-<net name="DPHY0_D0_N" class="3">
+<net name="DPHY0_DSID0_N" class="3">
 <segment>
 <wire x1="147.32" y1="185.42" x2="129.54" y2="185.42" width="0.1524" layer="91"/>
 <label x="147.32" y="185.42" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="16"/>
 </segment>
 </net>
-<net name="DPHY0_D0_P" class="3">
+<net name="DPHY0_DSID0_P" class="3">
 <segment>
 <wire x1="147.32" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
 <label x="147.32" y="182.88" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="18"/>
 </segment>
 </net>
-<net name="DPHY0_D1_N" class="3">
+<net name="DPHY0_DSID1_N" class="3">
 <segment>
 <wire x1="147.32" y1="177.8" x2="129.54" y2="177.8" width="0.1524" layer="91"/>
 <label x="147.32" y="177.8" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="22"/>
 </segment>
 </net>
-<net name="DPHY0_D1_P" class="3">
+<net name="DPHY0_DSID1_P" class="3">
 <segment>
 <wire x1="147.32" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
 <label x="147.32" y="175.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="24"/>
 </segment>
 </net>
-<net name="DPHY0_C_N" class="3">
+<net name="DPHY0_DSIC_N" class="3">
 <segment>
 <wire x1="147.32" y1="170.18" x2="129.54" y2="170.18" width="0.1524" layer="91"/>
 <label x="147.32" y="170.18" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="28"/>
 </segment>
 </net>
-<net name="DPHY0_C_P" class="3">
+<net name="DPHY0_DSIC_P" class="3">
 <segment>
 <wire x1="147.32" y1="167.64" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
 <label x="147.32" y="167.64" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="30"/>
 </segment>
 </net>
-<net name="DPHY0_D2_N" class="3">
+<net name="DPHY0_DSID2_N" class="3">
 <segment>
 <wire x1="147.32" y1="162.56" x2="129.54" y2="162.56" width="0.1524" layer="91"/>
 <label x="147.32" y="162.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="34"/>
 </segment>
 </net>
-<net name="DPHY0_D2_P" class="3">
+<net name="DPHY0_DSID2_P" class="3">
 <segment>
 <wire x1="147.32" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
 <label x="147.32" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="36"/>
 </segment>
 </net>
-<net name="DPHY0_D3_N" class="3">
+<net name="DPHY0_DSID3_N" class="3">
 <segment>
 <wire x1="147.32" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
 <label x="147.32" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="40"/>
 </segment>
 </net>
-<net name="DPHY0_D3_P" class="3">
+<net name="DPHY0_DSID3_P" class="3">
 <segment>
 <wire x1="147.32" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
 <label x="147.32" y="152.4" size="1.27" layer="95" xref="yes"/>
@@ -12881,98 +12881,98 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="PI1" gate="HISPEED" pin="54"/>
 </segment>
 </net>
-<net name="USB3-1-RX_N" class="2">
+<net name="USB3B_SSRX_N" class="2">
 <segment>
 <wire x1="147.32" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
 <label x="147.32" y="132.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="58"/>
 </segment>
 </net>
-<net name="USB3-1-RX_P" class="2">
+<net name="USB3B_SSRX_P" class="2">
 <segment>
 <wire x1="147.32" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
 <label x="147.32" y="129.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="60"/>
 </segment>
 </net>
-<net name="USB3-1-D_P" class="2">
+<net name="USB3B_DP_P" class="2">
 <segment>
 <wire x1="147.32" y1="124.46" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 <label x="147.32" y="124.46" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="64"/>
 </segment>
 </net>
-<net name="USB3-1-D_N" class="2">
+<net name="USB3B_DP_N" class="2">
 <segment>
 <wire x1="147.32" y1="121.92" x2="129.54" y2="121.92" width="0.1524" layer="91"/>
 <label x="147.32" y="121.92" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="66"/>
 </segment>
 </net>
-<net name="USB3-1-TX_N" class="2">
+<net name="USB3B_SSTX_N" class="2">
 <segment>
 <wire x1="147.32" y1="116.84" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
 <label x="147.32" y="116.84" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="70"/>
 </segment>
 </net>
-<net name="USB3-1-TX_P" class="2">
+<net name="USB3B_SSTX_P" class="2">
 <segment>
 <wire x1="147.32" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
 <label x="147.32" y="114.3" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="72"/>
 </segment>
 </net>
-<net name="DPHY1_D0_N" class="3">
+<net name="DPHY1_DSID0_N" class="3">
 <segment>
 <wire x1="147.32" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 <label x="147.32" y="109.22" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="76"/>
 </segment>
 </net>
-<net name="DPHY1_D0_P" class="3">
+<net name="DPHY1_DSID0_P" class="3">
 <segment>
 <wire x1="147.32" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 <label x="147.32" y="106.68" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="78"/>
 </segment>
 </net>
-<net name="DPHY1_D1_N" class="3">
+<net name="DPHY1_DSID1_N" class="3">
 <segment>
 <wire x1="147.32" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
 <label x="147.32" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="82"/>
 </segment>
 </net>
-<net name="DPHY1_D1_P" class="3">
+<net name="DPHY1_DSID1_P" class="3">
 <segment>
 <wire x1="147.32" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
 <label x="147.32" y="99.06" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="84"/>
 </segment>
 </net>
-<net name="DPHY1_C_N" class="3">
+<net name="DPHY1_DSIC_N" class="3">
 <segment>
 <wire x1="147.32" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <label x="147.32" y="93.98" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="88"/>
 </segment>
 </net>
-<net name="DPHY1_C_P" class="3">
+<net name="DPHY1_DSIC_P" class="3">
 <segment>
 <wire x1="147.32" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 <label x="147.32" y="91.44" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="90"/>
 </segment>
 </net>
-<net name="DPHY1_D2_N" class="3">
+<net name="DPHY1_DSID2_N" class="3">
 <segment>
 <wire x1="147.32" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
 <label x="147.32" y="86.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="94"/>
 </segment>
 </net>
-<net name="DPHY1_D2_P" class="3">
+<net name="DPHY1_DSID2_P" class="3">
 <segment>
 <wire x1="147.32" y1="83.82" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <label x="147.32" y="83.82" size="1.27" layer="95" xref="yes"/>
@@ -13049,168 +13049,168 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="PI1" gate="HISPEED" pin="23"/>
 </segment>
 </net>
-<net name="USB3-0-RX_N" class="2">
+<net name="USB3A_SSRX_N" class="2">
 <segment>
 <wire x1="86.36" y1="170.18" x2="104.14" y2="170.18" width="0.1524" layer="91"/>
 <label x="86.36" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="27"/>
 </segment>
 </net>
-<net name="USB3-0-RX_P" class="2">
+<net name="USB3A_SSRX_P" class="2">
 <segment>
 <wire x1="86.36" y1="167.64" x2="104.14" y2="167.64" width="0.1524" layer="91"/>
 <label x="86.36" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="29"/>
 </segment>
 </net>
-<net name="USB3-0-D_P" class="2">
+<net name="USB3A_DP_P" class="2">
 <segment>
 <wire x1="86.36" y1="162.56" x2="104.14" y2="162.56" width="0.1524" layer="91"/>
 <label x="86.36" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="33"/>
 </segment>
 </net>
-<net name="USB3-0-D_N" class="2">
+<net name="USB3A_DP_N" class="2">
 <segment>
 <wire x1="86.36" y1="160.02" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <label x="86.36" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="35"/>
 </segment>
 </net>
-<net name="USB3-0-TX_N" class="2">
+<net name="USB3A_SSTX_N" class="2">
 <segment>
 <wire x1="86.36" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
 <label x="86.36" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="39"/>
 </segment>
 </net>
-<net name="USB3-0-TX_P" class="2">
+<net name="USB3A_SSTX_P" class="2">
 <segment>
 <wire x1="86.36" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
 <label x="86.36" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="41"/>
 </segment>
 </net>
-<net name="HDMI1_D2_P" class="3">
+<net name="HDMI1_TDMS2_P" class="3">
 <segment>
 <wire x1="86.36" y1="147.32" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
 <label x="86.36" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="45"/>
 </segment>
 </net>
-<net name="HDMI1_D2_N" class="3">
+<net name="HDMI1_TDMS2_N" class="3">
 <segment>
 <wire x1="86.36" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
 <label x="86.36" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="47"/>
 </segment>
 </net>
-<net name="HDMI1_D1_P" class="3">
+<net name="HDMI1_TDMS1_P" class="3">
 <segment>
 <wire x1="86.36" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 <label x="86.36" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="51"/>
 </segment>
 </net>
-<net name="HDMI1_D1_N" class="3">
+<net name="HDMI1_TDMS1_N" class="3">
 <segment>
 <wire x1="86.36" y1="137.16" x2="104.14" y2="137.16" width="0.1524" layer="91"/>
 <label x="86.36" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="53"/>
 </segment>
 </net>
-<net name="HDMI1_D0_P" class="3">
+<net name="HDMI1_TDMS0_P" class="3">
 <segment>
 <wire x1="86.36" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
 <label x="86.36" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="57"/>
 </segment>
 </net>
-<net name="HDMI1_D0_N" class="3">
+<net name="HDMI1_TDMS0_N" class="3">
 <segment>
 <wire x1="86.36" y1="129.54" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 <label x="86.36" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="59"/>
 </segment>
 </net>
-<net name="HDMI1_CK_P" class="3">
+<net name="HDMI1_TDMSCK_P" class="3">
 <segment>
 <wire x1="86.36" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
 <label x="86.36" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="63"/>
 </segment>
 </net>
-<net name="HDMI1_CK_N" class="3">
+<net name="HDMI1_TDMSCK_N" class="3">
 <segment>
 <wire x1="86.36" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="86.36" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="65"/>
 </segment>
 </net>
-<net name="HDMI0_D2_P" class="3">
+<net name="HDMI0_TDMS2_P" class="3">
 <segment>
 <wire x1="86.36" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="86.36" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="69"/>
 </segment>
 </net>
-<net name="HDMI0_D2_N" class="3">
+<net name="HDMI0_TDMS2_N" class="3">
 <segment>
 <wire x1="86.36" y1="114.3" x2="104.14" y2="114.3" width="0.1524" layer="91"/>
 <label x="86.36" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="71"/>
 </segment>
 </net>
-<net name="HDMI0_D1_P" class="3">
+<net name="HDMI0_TDMS1_P" class="3">
 <segment>
 <wire x1="86.36" y1="109.22" x2="104.14" y2="109.22" width="0.1524" layer="91"/>
 <label x="86.36" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="75"/>
 </segment>
 </net>
-<net name="HDMI0_D1_N" class="3">
+<net name="HDMI0_TDMS1_N" class="3">
 <segment>
 <wire x1="86.36" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
 <label x="86.36" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="77"/>
 </segment>
 </net>
-<net name="HDMI0_D0_P" class="3">
+<net name="HDMI0_TDMS0_P" class="3">
 <segment>
 <wire x1="86.36" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="86.36" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="81"/>
 </segment>
 </net>
-<net name="HDMI0_D0_N" class="3">
+<net name="HDMI0_TDMS0_N" class="3">
 <segment>
 <wire x1="86.36" y1="99.06" x2="104.14" y2="99.06" width="0.1524" layer="91"/>
 <label x="86.36" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="83"/>
 </segment>
 </net>
-<net name="HDMI0_CK_P" class="3">
+<net name="HDMI0_TDMSCK_P" class="3">
 <segment>
 <wire x1="86.36" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
 <label x="86.36" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="87"/>
 </segment>
 </net>
-<net name="HDMI0_CK_N" class="3">
+<net name="HDMI0_TDMSCK_N" class="3">
 <segment>
 <wire x1="86.36" y1="91.44" x2="104.14" y2="91.44" width="0.1524" layer="91"/>
 <label x="86.36" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="89"/>
 </segment>
 </net>
-<net name="DPHY1_D3_N" class="3">
+<net name="DPHY1_DSID3_N" class="3">
 <segment>
 <wire x1="86.36" y1="86.36" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
 <label x="86.36" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="HISPEED" pin="93"/>
 </segment>
 </net>
-<net name="DPHY1_D3_P" class="3">
+<net name="DPHY1_DSID3_P" class="3">
 <segment>
 <wire x1="86.36" y1="83.82" x2="104.14" y2="83.82" width="0.1524" layer="91"/>
 <label x="86.36" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -13224,28 +13224,28 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="PI1" gate="HISPEED" pin="99"/>
 </segment>
 </net>
-<net name="TRD1_P" class="3">
+<net name="ETH_TX2_P" class="3">
 <segment>
 <wire x1="251.46" y1="200.66" x2="269.24" y2="200.66" width="0.1524" layer="91"/>
 <label x="251.46" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="GPIO" pin="3"/>
 </segment>
 </net>
-<net name="TRD1_N" class="3">
+<net name="ETH_TX2_N" class="3">
 <segment>
 <wire x1="251.46" y1="198.12" x2="269.24" y2="198.12" width="0.1524" layer="91"/>
 <label x="251.46" y="198.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="GPIO" pin="5"/>
 </segment>
 </net>
-<net name="TRD0_N" class="3">
+<net name="ETH_TX1_N" class="3">
 <segment>
 <wire x1="251.46" y1="193.04" x2="269.24" y2="193.04" width="0.1524" layer="91"/>
 <label x="251.46" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="PI1" gate="GPIO" pin="9"/>
 </segment>
 </net>
-<net name="TRD0_P" class="3">
+<net name="ETH_TX1_P" class="3">
 <segment>
 <wire x1="251.46" y1="190.5" x2="269.24" y2="190.5" width="0.1524" layer="91"/>
 <label x="251.46" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -13441,28 +13441,28 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="PI1" gate="GPIO" pin="99"/>
 </segment>
 </net>
-<net name="TRD3_P" class="3">
+<net name="ETH_TX4_P" class="3">
 <segment>
 <wire x1="312.42" y1="200.66" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
 <label x="312.42" y="200.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="GPIO" pin="4"/>
 </segment>
 </net>
-<net name="TRD3_N" class="3">
+<net name="ETH_TX4_N" class="3">
 <segment>
 <wire x1="312.42" y1="198.12" x2="294.64" y2="198.12" width="0.1524" layer="91"/>
 <label x="312.42" y="198.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="GPIO" pin="6"/>
 </segment>
 </net>
-<net name="TRD2_N" class="3">
+<net name="ETH_TX3_N" class="3">
 <segment>
 <wire x1="312.42" y1="193.04" x2="294.64" y2="193.04" width="0.1524" layer="91"/>
 <label x="312.42" y="193.04" size="1.27" layer="95" xref="yes"/>
 <pinref part="PI1" gate="GPIO" pin="10"/>
 </segment>
 </net>
-<net name="TRD2_P" class="3">
+<net name="ETH_TX3_P" class="3">
 <segment>
 <wire x1="312.42" y1="190.5" x2="294.64" y2="190.5" width="0.1524" layer="91"/>
 <label x="312.42" y="190.5" size="1.27" layer="95" xref="yes"/>
@@ -14405,7 +14405,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="J4" gate="A" pin="MH2"/>
 </segment>
 </net>
-<net name="USB2_N" class="2">
+<net name="USB_DP_N" class="2">
 <segment>
 <wire x1="68.58" y1="210.82" x2="76.2" y2="210.82" width="0.1524" layer="91"/>
 <label x="76.2" y="210.82" size="1.27" layer="95" xref="yes"/>
@@ -14417,7 +14417,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <pinref part="USBC" gate="G$1" pin="D-1"/>
 </segment>
 </net>
-<net name="USB2_P" class="2">
+<net name="USB_DP_P" class="2">
 <segment>
 <wire x1="68.58" y1="208.28" x2="76.2" y2="208.28" width="0.1524" layer="91"/>
 <label x="76.2" y="208.28" size="1.27" layer="95" xref="yes"/>
@@ -14536,140 +14536,140 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <wire x1="116.84" y1="45.72" x2="116.84" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="USB3-0-D_N" class="2">
+<net name="USB3A_DP_N" class="2">
 <segment>
 <wire x1="205.74" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
 <label x="205.74" y="213.36" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="D-"/>
 </segment>
 </net>
-<net name="USB3-0-D_P" class="2">
+<net name="USB3A_DP_P" class="2">
 <segment>
 <wire x1="198.12" y1="210.82" x2="205.74" y2="210.82" width="0.1524" layer="91"/>
 <label x="205.74" y="210.82" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="D+"/>
 </segment>
 </net>
-<net name="USB3-0-RX_N" class="2">
+<net name="USB3A_SSRX_N" class="2">
 <segment>
 <wire x1="198.12" y1="205.74" x2="205.74" y2="205.74" width="0.1524" layer="91"/>
 <label x="205.74" y="205.74" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="STDA_SSRX-"/>
 </segment>
 </net>
-<net name="USB3-0-RX_P" class="2">
+<net name="USB3A_SSRX_P" class="2">
 <segment>
 <wire x1="205.74" y1="203.2" x2="198.12" y2="203.2" width="0.1524" layer="91"/>
 <label x="205.74" y="203.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="STDA_SSRX+"/>
 </segment>
 </net>
-<net name="USB3-0-TX_P" class="2">
+<net name="USB3A_SSTX_P" class="2">
 <segment>
 <wire x1="198.12" y1="195.58" x2="205.74" y2="195.58" width="0.1524" layer="91"/>
 <label x="205.74" y="195.58" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="STDA_SSTX+"/>
 </segment>
 </net>
-<net name="USB3-1-TX_N" class="2">
+<net name="USB3B_SSTX_N" class="2">
 <segment>
 <wire x1="205.74" y1="147.32" x2="198.12" y2="147.32" width="0.1524" layer="91"/>
 <label x="205.74" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="STDA_SSTX-"/>
 </segment>
 </net>
-<net name="USB3-1-D_N" class="2">
+<net name="USB3B_DP_N" class="2">
 <segment>
 <wire x1="205.74" y1="162.56" x2="198.12" y2="162.56" width="0.1524" layer="91"/>
 <label x="205.74" y="162.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="D-"/>
 </segment>
 </net>
-<net name="USB3-1-D_P" class="2">
+<net name="USB3B_DP_P" class="2">
 <segment>
 <wire x1="198.12" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
 <label x="205.74" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="D+"/>
 </segment>
 </net>
-<net name="USB3-1-RX_N" class="2">
+<net name="USB3B_SSRX_N" class="2">
 <segment>
 <wire x1="198.12" y1="154.94" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
 <label x="205.74" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="STDA_SSRX-"/>
 </segment>
 </net>
-<net name="USB3-1-RX_P" class="2">
+<net name="USB3B_SSRX_P" class="2">
 <segment>
 <wire x1="205.74" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
 <label x="205.74" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="STDA_SSRX+"/>
 </segment>
 </net>
-<net name="USB3-1-TX_P" class="2">
+<net name="USB3B_SSTX_P" class="2">
 <segment>
 <wire x1="198.12" y1="144.78" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
 <label x="205.74" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="J2" gate="G$1" pin="STDA_SSTX+"/>
 </segment>
 </net>
-<net name="USB3-0-TX_N" class="2">
+<net name="USB3A_SSTX_N" class="2">
 <segment>
 <wire x1="205.74" y1="198.12" x2="198.12" y2="198.12" width="0.1524" layer="91"/>
 <label x="205.74" y="198.12" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="STDA_SSTX-"/>
 </segment>
 </net>
-<net name="HDMI0_D2_P" class="3">
+<net name="HDMI0_TDMS2_P" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDS2SHIELD"/>
 <wire x1="302.26" y1="215.9" x2="320.04" y2="215.9" width="0.1524" layer="91"/>
 <label x="320.04" y="215.9" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_D2_N" class="3">
+<net name="HDMI0_TDMS2_N" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDS2-"/>
 <wire x1="302.26" y1="210.82" x2="320.04" y2="210.82" width="0.1524" layer="91"/>
 <label x="320.04" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_D1_P" class="3">
+<net name="HDMI0_TDMS1_P" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDS1SHIELD"/>
 <wire x1="302.26" y1="208.28" x2="320.04" y2="208.28" width="0.1524" layer="91"/>
 <label x="320.04" y="208.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_D1_N" class="3">
+<net name="HDMI0_TDMS1_N" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDS1-"/>
 <wire x1="302.26" y1="203.2" x2="320.04" y2="203.2" width="0.1524" layer="91"/>
 <label x="320.04" y="203.2" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_D0_P" class="3">
+<net name="HDMI0_TDMS0_P" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDS0SHIELD"/>
 <wire x1="302.26" y1="200.66" x2="320.04" y2="200.66" width="0.1524" layer="91"/>
 <label x="320.04" y="200.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_D0_N" class="3">
+<net name="HDMI0_TDMS0_N" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDS0-"/>
 <wire x1="302.26" y1="195.58" x2="320.04" y2="195.58" width="0.1524" layer="91"/>
 <label x="320.04" y="195.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_CK_P" class="3">
+<net name="HDMI0_TDMSCK_P" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDSCLOCKSHIELD"/>
 <wire x1="302.26" y1="193.04" x2="320.04" y2="193.04" width="0.1524" layer="91"/>
 <label x="320.04" y="193.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI0_CK_N" class="3">
+<net name="HDMI0_TDMSCK_N" class="3">
 <segment>
 <pinref part="HDMI2" gate="G$1" pin="TMDSCLOCK-"/>
 <wire x1="302.26" y1="187.96" x2="320.04" y2="187.96" width="0.1524" layer="91"/>
@@ -14728,56 +14728,56 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <wire x1="309.88" y1="76.2" x2="309.88" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="HDMI1_D2_P" class="3">
+<net name="HDMI1_TDMS2_P" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDS2SHIELD"/>
 <wire x1="302.26" y1="147.32" x2="320.04" y2="147.32" width="0.1524" layer="91"/>
 <label x="320.04" y="147.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_D2_N" class="3">
+<net name="HDMI1_TDMS2_N" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDS2-"/>
 <wire x1="302.26" y1="142.24" x2="320.04" y2="142.24" width="0.1524" layer="91"/>
 <label x="320.04" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_D1_P" class="3">
+<net name="HDMI1_TDMS1_P" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDS1SHIELD"/>
 <wire x1="302.26" y1="139.7" x2="320.04" y2="139.7" width="0.1524" layer="91"/>
 <label x="320.04" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_D1_N" class="3">
+<net name="HDMI1_TDMS1_N" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDS1-"/>
 <wire x1="302.26" y1="134.62" x2="320.04" y2="134.62" width="0.1524" layer="91"/>
 <label x="320.04" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_D0_P" class="3">
+<net name="HDMI1_TDMS0_P" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDS0SHIELD"/>
 <wire x1="302.26" y1="132.08" x2="320.04" y2="132.08" width="0.1524" layer="91"/>
 <label x="320.04" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_D0_N" class="3">
+<net name="HDMI1_TDMS0_N" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDS0-"/>
 <wire x1="302.26" y1="127" x2="320.04" y2="127" width="0.1524" layer="91"/>
 <label x="320.04" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_CK_P" class="3">
+<net name="HDMI1_TDMSCK_P" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDSCLOCKSHIELD"/>
 <wire x1="302.26" y1="124.46" x2="320.04" y2="124.46" width="0.1524" layer="91"/>
 <label x="320.04" y="124.46" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="HDMI1_CK_N" class="3">
+<net name="HDMI1_TDMSCK_N" class="3">
 <segment>
 <pinref part="HDMI1" gate="G$1" pin="TMDSCLOCK-"/>
 <wire x1="302.26" y1="119.38" x2="320.04" y2="119.38" width="0.1524" layer="91"/>
@@ -14885,70 +14885,70 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="210.82" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DPHY1_D3_P" class="3">
+<net name="DPHY1_DSID3_P" class="3">
 <segment>
 <wire x1="109.22" y1="111.76" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
 <label x="109.22" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="15"/>
 </segment>
 </net>
-<net name="DPHY1_D3_N" class="3">
+<net name="DPHY1_DSID3_N" class="3">
 <segment>
 <wire x1="109.22" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
 <label x="109.22" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="14"/>
 </segment>
 </net>
-<net name="DPHY1_D2_P" class="3">
+<net name="DPHY1_DSID2_P" class="3">
 <segment>
 <wire x1="109.22" y1="119.38" x2="119.38" y2="119.38" width="0.1524" layer="91"/>
 <label x="109.22" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="12"/>
 </segment>
 </net>
-<net name="DPHY1_D2_N" class="3">
+<net name="DPHY1_DSID2_N" class="3">
 <segment>
 <wire x1="109.22" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
 <label x="109.22" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="11"/>
 </segment>
 </net>
-<net name="DPHY1_C_P" class="3">
+<net name="DPHY1_DSIC_P" class="3">
 <segment>
 <wire x1="109.22" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <label x="109.22" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="9"/>
 </segment>
 </net>
-<net name="DPHY1_C_N" class="3">
+<net name="DPHY1_DSIC_N" class="3">
 <segment>
 <wire x1="109.22" y1="129.54" x2="119.38" y2="129.54" width="0.1524" layer="91"/>
 <label x="109.22" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="8"/>
 </segment>
 </net>
-<net name="DPHY1_D1_P" class="3">
+<net name="DPHY1_DSID1_P" class="3">
 <segment>
 <wire x1="109.22" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
 <label x="109.22" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="6"/>
 </segment>
 </net>
-<net name="DPHY1_D1_N" class="3">
+<net name="DPHY1_DSID1_N" class="3">
 <segment>
 <wire x1="109.22" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
 <label x="109.22" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="5"/>
 </segment>
 </net>
-<net name="DPHY1_D0_P" class="3">
+<net name="DPHY1_DSID0_P" class="3">
 <segment>
 <wire x1="109.22" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 <label x="109.22" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J4" gate="A" pin="3"/>
 </segment>
 </net>
-<net name="DPHY1_D0_N" class="3">
+<net name="DPHY1_DSID0_N" class="3">
 <segment>
 <wire x1="109.22" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
 <label x="109.22" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -14972,70 +14972,70 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <wire x1="91.44" y1="106.68" x2="93.98" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="DPHY0_D0_N" class="3">
+<net name="DPHY0_DSID0_N" class="3">
 <segment>
 <wire x1="38.1" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
 <label x="38.1" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="2"/>
 </segment>
 </net>
-<net name="DPHY0_D0_P" class="3">
+<net name="DPHY0_DSID0_P" class="3">
 <segment>
 <wire x1="38.1" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
 <label x="38.1" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="3"/>
 </segment>
 </net>
-<net name="DPHY0_D1_N" class="3">
+<net name="DPHY0_DSID1_N" class="3">
 <segment>
 <wire x1="38.1" y1="137.16" x2="48.26" y2="137.16" width="0.1524" layer="91"/>
 <label x="38.1" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="5"/>
 </segment>
 </net>
-<net name="DPHY0_D1_P" class="3">
+<net name="DPHY0_DSID1_P" class="3">
 <segment>
 <wire x1="38.1" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
 <label x="38.1" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="6"/>
 </segment>
 </net>
-<net name="DPHY0_C_N" class="3">
+<net name="DPHY0_DSIC_N" class="3">
 <segment>
 <wire x1="38.1" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
 <label x="38.1" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="8"/>
 </segment>
 </net>
-<net name="DPHY0_C_P" class="3">
+<net name="DPHY0_DSIC_P" class="3">
 <segment>
 <wire x1="38.1" y1="127" x2="48.26" y2="127" width="0.1524" layer="91"/>
 <label x="38.1" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="9"/>
 </segment>
 </net>
-<net name="DPHY0_D2_N" class="3">
+<net name="DPHY0_DSID2_N" class="3">
 <segment>
 <wire x1="38.1" y1="121.92" x2="48.26" y2="121.92" width="0.1524" layer="91"/>
 <label x="38.1" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="11"/>
 </segment>
 </net>
-<net name="DPHY0_D2_P" class="3">
+<net name="DPHY0_DSID2_P" class="3">
 <segment>
 <wire x1="38.1" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <label x="38.1" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="12"/>
 </segment>
 </net>
-<net name="DPHY0_D3_N" class="3">
+<net name="DPHY0_DSID3_N" class="3">
 <segment>
 <wire x1="38.1" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
 <label x="38.1" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J3" gate="A" pin="14"/>
 </segment>
 </net>
-<net name="DPHY0_D3_P" class="3">
+<net name="DPHY0_DSID3_P" class="3">
 <segment>
 <wire x1="38.1" y1="111.76" x2="48.26" y2="111.76" width="0.1524" layer="91"/>
 <label x="38.1" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15894,7 +15894,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="172.72" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TRD0_P" class="3">
+<net name="ETH_TX1_P" class="3">
 <segment>
 <wire x1="266.7" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
 <label x="248.92" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15906,7 +15906,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="302.26" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TRD0_N" class="3">
+<net name="ETH_TX1_N" class="3">
 <segment>
 <wire x1="266.7" y1="215.9" x2="248.92" y2="215.9" width="0.1524" layer="91"/>
 <label x="248.92" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15918,7 +15918,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="302.26" y="78.74" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TRD1_P" class="3">
+<net name="ETH_TX2_P" class="3">
 <segment>
 <wire x1="266.7" y1="213.36" x2="248.92" y2="213.36" width="0.1524" layer="91"/>
 <label x="248.92" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15930,7 +15930,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="266.7" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TRD1_N" class="3">
+<net name="ETH_TX2_N" class="3">
 <segment>
 <wire x1="266.7" y1="203.2" x2="248.92" y2="203.2" width="0.1524" layer="91"/>
 <label x="248.92" y="203.2" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15942,7 +15942,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="266.7" y="83.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TRD2_P" class="3">
+<net name="ETH_TX3_P" class="3">
 <segment>
 <wire x1="266.7" y1="200.66" x2="248.92" y2="200.66" width="0.1524" layer="91"/>
 <label x="248.92" y="200.66" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15954,7 +15954,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="264.16" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TRD2_N" class="3">
+<net name="ETH_TX3_N" class="3">
 <segment>
 <wire x1="266.7" y1="190.5" x2="248.92" y2="190.5" width="0.1524" layer="91"/>
 <label x="248.92" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15966,7 +15966,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="264.16" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="TRD3_P" class="3">
+<net name="ETH_TX4_P" class="3">
 <segment>
 <wire x1="266.7" y1="187.96" x2="248.92" y2="187.96" width="0.1524" layer="91"/>
 <label x="248.92" y="187.96" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15978,7 +15978,7 @@ Details see: &lt;a href="https://www.we-online.com/katalog/en/SMSI_SMT_STEEL_SPA
 <label x="304.8" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="TRD3_N" class="3">
+<net name="ETH_TX4_N" class="3">
 <segment>
 <wire x1="266.7" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
 <label x="248.92" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
