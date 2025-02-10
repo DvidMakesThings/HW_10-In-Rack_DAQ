@@ -3,7 +3,7 @@
 DiffPairCheck.exe is a standalone Windows application designed to verify the length matching of differential pairs in high‑speed designs. It processes signal reports exported from Eagle (using the Eagle ULP "length") and checks that the lengths of paired signals meet the required tolerances for a given interface. The application groups signals based on strict naming conventions and allows users to assign interfaces to each pair, run detailed checks, and export a Markdown report of the results.
 
 ## Naming Conventions
-DiffPairCheck.exe relies on a strict naming convention to accurately group differential pairs. The signal names must follow the format outlined in the [Key Design Rules for Differential Pairs for Interfaces](docs/Manuals/Key%20Design%20Rules%20for%20Differential%20pairs%20for%20Interfaces.pdf):
+DiffPairCheck.exe relies on a strict naming convention to accurately group differential pairs. The signal names must follow the format outlined in the [Key Design Rules for Differential Pairs for Interfaces](https://github.com/DvidMakesThings/HW_10-In-Rack_DAQ/blob/master/docs/Manuals/Key%20Design%20Rules%20for%20Differential%20pairs%20for%20Interfaces.pdf):
 
 - **Format:**  
   **InterfaceName + "_" + DiffPairName + "_" + (N or P)**
