@@ -5,9 +5,7 @@
 
 ## Introduction
 
-In the current market, finding a DAQ specifically designed for 10-inch racks is quite challenging. Most available options are tailored for 19-inch racks, which are significantly larger and not suitable for more compact setups. Recognizing this gap, I embarked on a project to create a DAQ solution that fits perfectly in a 10-inch rack while still providing all the necessary features and functionalities.
-
-The goal of this project is not only to address the size constraints but also to keep the costs low and make the design accessible to everyone. By sharing the design as an open-source project, I aim to empower others to build and customize their own PDUs according to their specific needs. This approach fosters a community of innovation and collaboration, enabling users to adapt and improve the design to suit their unique requirements.
+In the current market, finding a DAQ specifically designed for 10-inch racks is quite challenging. Most available options are tailored for 19-inch racks, which are significantly larger and not suitable for more compact setups. Recognizing this gap, I embarked on a project to create a DAQ solution that fits perfectly in a 10-inch rack while still providing all the necessary features and functionalities. The goal of this project is not only to address the size constraints but also to keep the costs low and make the design accessible to everyone. 
 
 ## Development Phases
 
@@ -25,7 +23,7 @@ The goal of this project is not only to address the size constraints but also to
 | **Production Optimization**          | ![Planned](https://img.shields.io/badge/status-planned-blue) |
 
 
-![Image 1](images/Dataforge-assemby-3D-1.png)
+![Image 1](images/Rev1.0/Dataforge-assemby-3D-1.png)
 
 ## Features
 
@@ -63,7 +61,7 @@ Key features of the CM5 are as follows (for more details, refer to the [CM5 data
 - Single +5V PSU input supports USB PD for up to 5A @ 5V
 - Real-time clock (RTC), powered from external battery
 
-![Image 2](images/Dataforge-assemby-3D-2.png)
+![Image 2](images/Rev1.0/Dataforge-assemby-3D-2.png)
 
 ## DAQ Specifications
 
@@ -90,7 +88,7 @@ The digital IO section is designed to provide versatile and robust digital input
 
 **Key Components:**
 - **Bidirectional Voltage-Level Translators:** LSF0108-Q1 are used for multi-voltage compatibility, allowing the system to interface with different voltage levels.
-- **Direct GPIO Support:** The RP2354B provides simple and robust design for direct GPIO support, ensuring reliable digital IO performance.
+- **Direct GPIO Support:** The RP2040 provides simple and robust design for direct GPIO support, ensuring reliable digital IO performance.
 
 ### Constants
 
@@ -146,7 +144,7 @@ The input ranges for different gain settings are determined by the reference vol
 
 Refer to the datasheets and manuals in the `docs` folder for detailed information on the components and usage instructions.
 
-![Image 2](images/Dataforge-assemby-3D-3.png)
+![Image 2](images/Rev1.0/Dataforge-assemby-3D-3.png)
 
 ## License
 
