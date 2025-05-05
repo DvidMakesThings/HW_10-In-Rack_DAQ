@@ -5038,7 +5038,7 @@ top actuated</description>
 <part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND82" library="ds_passive" deviceset="GND" device=""/>
 <part name="C47" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="10uF"/>
-<part name="C48" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF"/>
+<part name="C48" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2"/>
 <part name="IC13" library="ds_ic_opa" deviceset="AD8605" device="" package3d_urn="urn:adsk.eagle:package:25419215/3" value="AD8605"/>
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND83" library="ds_passive" deviceset="GND" device=""/>
@@ -5105,7 +5105,7 @@ top actuated</description>
 <part name="C72" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="1uF"/>
 <part name="C73" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF"/>
 <part name="GND73" library="ds_passive" deviceset="GND" device=""/>
-<part name="C74" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF"/>
+<part name="C74" library="ds_passive" deviceset="C" device="-0402" package3d_urn="urn:adsk.eagle:package:46766485/2"/>
 <part name="IC11" library="ds_ic_opa" deviceset="AD8605" device="" package3d_urn="urn:adsk.eagle:package:25419215/3" value="AD8605"/>
 <part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND76" library="ds_passive" deviceset="GND" device=""/>

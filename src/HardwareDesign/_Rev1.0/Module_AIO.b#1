@@ -3,7 +3,7 @@
 <eagle version="9.2.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.12" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -4311,7 +4311,7 @@ follow the Milling Layer</text>
 <element name="C47" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="10uF" x="45.33" y="57.62" smashed="yes">
 <attribute name="VALUE" x="44.695" y="55.715" size="1.016" layer="27"/>
 </element>
-<element name="C48" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF" x="45.96" y="51.91" smashed="yes">
+<element name="C48" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="" x="45.96" y="51.91" smashed="yes">
 <attribute name="VALUE" x="45.325" y="50.005" size="1.016" layer="27"/>
 </element>
 <element name="C49" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF" x="41.44" y="57.56" smashed="yes" rot="R180">
@@ -4417,7 +4417,7 @@ follow the Milling Layer</text>
 <element name="C73" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF" x="43.78" y="50.77" smashed="yes" rot="R270">
 <attribute name="VALUE" x="41.875" y="51.405" size="1.016" layer="27" rot="R270"/>
 </element>
-<element name="C74" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF" x="39.83" y="47.43" smashed="yes" rot="R180">
+<element name="C74" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="" x="39.83" y="47.43" smashed="yes" rot="R180">
 <attribute name="VALUE" x="40.465" y="49.335" size="1.016" layer="27" rot="R180"/>
 </element>
 <element name="C75" library="ds_passive" package="C0402" package3d_urn="urn:adsk.eagle:package:46766485/2" value="100nF" x="36.25" y="47.44" smashed="yes">
@@ -11851,11 +11851,39 @@ follow the Milling Layer</text>
 <approved hash="19,1,9128931a14001632"/>
 <approved hash="19,1,60926601181b1e88"/>
 <approved hash="19,16,a02fa3031d191e35"/>
+<approved hash="23,1,9e689fbbefb9f190"/>
+<approved hash="23,1,bc612b212bd0bc90"/>
+<approved hash="23,1,b7c8b1d57f927f8a"/>
 <approved hash="23,1,27cc2e2a2cc31723"/>
+<approved hash="23,1,093888c2568455f8"/>
+<approved hash="23,1,0ece84cee68ada08"/>
+<approved hash="23,1,899636d6369589d5"/>
+<approved hash="23,1,c97bcfa98b518879"/>
+<approved hash="23,1,d574d715f0560bb4"/>
+<approved hash="23,1,b5f5973597dbb51b"/>
+<approved hash="23,1,fe35fcf583d58115"/>
+<approved hash="23,1,556c510cf6cb7b2c"/>
 <approved hash="23,1,dd415f755ebbdc8f"/>
+<approved hash="23,1,7b8f798bbd4db24c"/>
+<approved hash="23,1,fc7bfea8bf50b679"/>
+<approved hash="23,1,0e2783c5eb87e9e7"/>
 <approved hash="23,1,6c038ee58e7f6d90"/>
+<approved hash="23,1,77597f99bddbbfd0"/>
+<approved hash="23,1,fb9e875ee79aea1b"/>
+<approved hash="23,1,f77dd1bdd0bdf67d"/>
 <approved hash="23,1,835467b9baddbd93"/>
+<approved hash="23,1,c5091849190ac44a"/>
+<approved hash="23,1,73596d996ddb731b"/>
+<approved hash="23,1,7f12f252f2f07fb0"/>
+<approved hash="23,1,fe3d99fd9a74fdb4"/>
+<approved hash="23,1,480c2d4c2e0f4b4f"/>
+<approved hash="23,1,5129126912eb51ab"/>
 <approved hash="23,1,a2035165d2eea02b"/>
+<approved hash="23,1,e990d030f23573cc"/>
+<approved hash="23,1,f2ad35e314e194d3"/>
+<approved hash="23,1,fe7373337314fe54"/>
+<approved hash="23,1,730a50ca51c87208"/>
+<approved hash="23,1,f44a510a51c9f489"/>
 <approved hash="23,16,5f425d607ca57d88"/>
 <approved hash="19,1,7e67f3c0efff0b9d"/>
 <approved hash="19,1,1a34180f1215102e"/>
@@ -11873,6 +11901,7 @@ follow the Milling Layer</text>
 <approved hash="19,1,121bd08a9d15f761"/>
 <approved hash="19,1,9d9b19c821f247a3"/>
 <approved hash="19,16,382b3b00051a0631"/>
+<approved hash="23,1,f07b1301df06a447"/>
 <approved hash="23,1,e16bc427c309e645"/>
 <approved hash="23,1,3491f0b516351351"/>
 <approved hash="20,1,4c4ad685f0accb1f"/>
@@ -11884,8 +11913,46 @@ follow the Milling Layer</text>
 <approved hash="20,1,7d30838c94502898"/>
 <approved hash="20,1,76e97b45dc8cb926"/>
 <approved hash="23,1,9248926a83aac389"/>
+<approved hash="23,1,2cd9f4f9d479d319"/>
+<approved hash="23,1,e99ca45ca4bfe97f"/>
 <approved hash="23,1,d99768576818d9d8"/>
+<approved hash="23,1,99dbf91bf63896f8"/>
 <approved hash="23,1,fcfa313a311bfcdb"/>
+<approved hash="23,1,4769a7a9a74f478f"/>
+<approved hash="23,1,be3ca3828c4f0000"/>
+<approved hash="23,1,fc3efca79e62157a"/>
+<approved hash="23,1,72beb21d13d08cfa"/>
+<approved hash="23,1,dd869de5ffe5665f"/>
+<approved hash="23,1,f8effb2039ec39eb"/>
+<approved hash="23,1,a8ddabbfe638aa99"/>
+<approved hash="23,1,6f792c27ca26d67e"/>
+<approved hash="23,1,feb2bc72bc4dfe8d"/>
+<approved hash="23,1,b051b08f7277aa91"/>
+<approved hash="23,1,cc954f55409bc35b"/>
+<approved hash="23,1,d349b089b094d354"/>
+<approved hash="23,1,31a1936193833143"/>
+<approved hash="23,1,8670629b6291017b"/>
+<approved hash="23,1,3af3c019c0123af8"/>
+<approved hash="23,1,fa6f54af5489fa49"/>
+<approved hash="23,16,66890c49124b788b"/>
+<approved hash="23,16,d18615461404d0c4"/>
+<approved hash="23,16,9c33dff3dfd29c12"/>
+<approved hash="23,16,07e7c62af9a5b12b"/>
+<approved hash="23,16,8d036ac365e18221"/>
+<approved hash="23,16,ca8f3f7d31ddc42f"/>
+<approved hash="23,16,71631ba31b5b719b"/>
+<approved hash="23,16,b67f10bf11beb77e"/>
+<approved hash="23,16,d479d47cd4b89c3d"/>
+<approved hash="23,16,4a70e4b0eb924552"/>
+<approved hash="23,16,28d1efd038d4280c"/>
+<approved hash="23,16,861fe6dfe63886f8"/>
+<approved hash="23,16,602a66f596cbd66a"/>
+<approved hash="23,16,0b38e8f8e9de0a1e"/>
+<approved hash="23,16,7847340536d87b9b"/>
+<approved hash="23,16,58435b7d14fc581b"/>
+<approved hash="23,16,4e4ccc0cccce4e8e"/>
+<approved hash="23,16,b29f36be177ac992"/>
+<approved hash="23,16,0a71d9b1d9cf0a0f"/>
 </errors>
 </board>
 </drawing>
